@@ -10,6 +10,9 @@
 This repository accompanies the paper [__"Modeling Sleep Genetics Uncovers Distinct Disease Risks in Night vs. Day Workers"__](https://www.nature.) 
 <br/><br/> <br/>
 
+<p align="center">
+<img src="/img/figure_1.png" alt="Overview Figure" width="600"/>
+<br/><br/>
 
 
 
