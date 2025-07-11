@@ -43,11 +43,15 @@ Finally, we reported results from the MR-PRESSO method, including the MR-PRESSO 
 
 
 ## PRS_CS
+We calculated scores using the PRS-CS approach, which employs a Bayesian framework that incorporates linkage disequilibrium (LD) information from large reference panels. This method adaptively shrinks SNP effect sizes, allowing for the flexible handling of both large and small genetic effects.  
+__MTAG__ We ran MTAG using its default settings, thus obtained the same number of summary statistics as the input traits, with each set containing updated meta-analyzed effect estimates based on the genetic correlations among the included traits. We then focused on the MTAG results where effect estimates were driven by the sleep factor, rather than the psychiatric or behavioral traits. These adjusted factors were subsequently used in PheWAS analysis and polygenic score (PGS) analysis, conducted separately in night shift and day shift workers.  
 
 ## UKB_PheWAS
+The following data fields were used: 20002 (Self-reported non-cancer diagnosis), 20008 (Year of self-reported diagnosis), 20004 (Self-reported operation code), 40006 (Cancer diagnosis from cancer registry), and 40005 (Date of cancer diagnosis). Additionally, we retrieved record-level data from 42040 (GP clinical event records), 42039 (GP prescription records), 41259 (Hospital Episode Statistics [HES] inpatient main dataset), 41234 (HES inpatient diagnosis), 41149 (HES inpatient operations), 40023 (Cause of death), and 40023 (Date of death). Using DeepPheWAS, we mapped these data to phecodes, created quantitative phenotypes, and generated combined phenotypes. This resulted in a dataset containing 1,234 variables, each with at least 20 entries in the analysed UKB subpopulation 
 
 
-## All_of_Us_PheWAS
+## All_of_Us_PheWAS  
+The replication was conducted in the All of Us Research Program, using survey and EHR data mapped to UK Biobank trait definitions. After careful harmonisation, we were able to replicate 933 of the original 1,233 phenotypes tested in the UK Biobank. The entire process and all code to harmonise between cohorts is stored in a [dedicated repository]( https://github.com/LeoVincenzi/AllOfUs_to_UKBB) 
 
 
 ## Nigthshift_stratified
