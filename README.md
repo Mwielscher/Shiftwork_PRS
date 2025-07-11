@@ -50,7 +50,7 @@ __MTAG__ We ran MTAG using its default settings, thus obtained the same number o
 The following data fields were used: 20002 (Self-reported non-cancer diagnosis), 20008 (Year of self-reported diagnosis), 20004 (Self-reported operation code), 40006 (Cancer diagnosis from cancer registry), and 40005 (Date of cancer diagnosis). Additionally, we retrieved record-level data from 42040 (GP clinical event records), 42039 (GP prescription records), 41259 (Hospital Episode Statistics [HES] inpatient main dataset), 41234 (HES inpatient diagnosis), 41149 (HES inpatient operations), 40023 (Cause of death), and 40023 (Date of death). Using DeepPheWAS, we mapped these data to phecodes, created quantitative phenotypes, and generated combined phenotypes. This resulted in a dataset containing 1,234 variables, each with at least 20 entries in the analysed UKB subpopulation 
 
 
-## All_of_Us_PheWAS  
+## [All_of_Us_PheWAS]( https://github.com/LeoVincenzi/AllOfUs_to_UKBB)  
 The replication was conducted in the All of Us Research Program, using survey and EHR data mapped to UK Biobank trait definitions. After careful harmonisation, we were able to replicate 933 of the original 1,233 phenotypes tested in the UK Biobank. The entire process and all code to harmonise between cohorts is stored in a [dedicated repository]( https://github.com/LeoVincenzi/AllOfUs_to_UKBB) 
 
 
