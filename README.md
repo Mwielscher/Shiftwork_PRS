@@ -8,7 +8,7 @@
 6. [Nigthshift_stratified](#Nigthshift_stratified)
 
 ## About this Repository
-This repository accompanies the paper [__"Modeling Sleep Genetics Uncovers Distinct Disease Risks in Night vs. Day Workers"__](https://www.nature.) 
+This repository accompanies the manuscript [__"Modeling Sleep Genetics Uncovers Distinct Disease Risks in Night vs. Day Workers"__](https://www.nature.) 
 <br/><br/> <br/>
 
 <p align="center">
