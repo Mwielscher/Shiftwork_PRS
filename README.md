@@ -2,7 +2,8 @@
 1. [About this Repository](#About-this-Repository)
 2. [LDSC](#LDSC)
 3. [MultiVar_GWAS](#MultiVar_GWAS)
-4. [PRS_CS](#PRS_CS)
+4. [Mendelian_Randomisation](#Mendelian_Randomisation)
+5. [PRS_CS](#PRS_CS)
 4. [UKB_PheWAS](#UKB_PheWAS)
 5. [All_of_Us_PheWAS](#All_of_Us_PheWAS)
 6. [Nigthshift_stratified](#Nigthshift_stratified)
@@ -28,7 +29,7 @@ This repository accompanies the manuscript [__"Modeling Sleep Genetics Uncovers 
 ## MultiVar_GWAS  
 
 
-## Mendelian-Randomization
+## Mendelian_Randomisation
 
 
 ## PRS_CS
